@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/github/MvvmArchitecture/CropImage/src/main/res/layout/activity_crop.xml" value="0.3536458333333333" />
+        <entry key="..\:/github/MvvmArchitecture/CropImage/src/main/res/layout/fragment_crop.xml" value="0.3333333333333333" />
+        <entry key="..\:/workspace/2021/MvvmArchitecture/MultiStateView/src/main/res/layout/default_empty.xml" value="0.19429347826086957" />
+        <entry key="..\:/workspace/2021/MvvmArchitecture/MultiStateView/src/main/res/layout/default_error.xml" value="0.19429347826086957" />
+        <entry key="..\:/workspace/2021/MvvmArchitecture/MultiStateView/src/main/res/layout/default_loading_view.xml" value="0.19429347826086957" />
+        <entry key="..\:/workspace/2021/MvvmArchitecture/MultiStateView/src/main/res/layout/default_need_login.xml" value="0.19429347826086957" />
+        <entry key="..\:/workspace/2021/MvvmArchitecture/MultiStateView/src/main/res/layout/default_net_error.xml" value="0.19429347826086957" />
+        <entry key="..\:/workspace/2021/MvvmArchitecture/library/src/main/res/drawable/circle_red.xml" value="0.25555555555555554" />
+        <entry key="..\:/workspace/2021/MvvmArchitecture/library/src/main/res/layout/activity_big_image.xml" value="0.28442028985507245" />
+        <entry key="..\:/workspace/2021/MvvmArchitecture/library/src/main/res/layout/content_appbar.xml" value="0.28442028985507245" />
+        <entry key="..\:/workspace/2021/MvvmArchitecture/library/src/main/res/layout/search_view.xml" value="0.28442028985507245" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

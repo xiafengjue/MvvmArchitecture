@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">YXProjectLib</string>
+    <string name="loading">请稍等……</string>
+    <string name="now_register">正在注册</string>
+    <string name="net_error">网络出现错误，请检查后重试。</string>
+    <string name="count_time">%d秒</string>
+    <string name="get_verity_code">获取验证码</string>
+
+    <string name="now_sign_in">正在登录</string>
+    <string name="verify_code">验证码</string>
+    <string name="telephone">手机号码</string>
+    <string name="password">密码</string>
+    <string name="sign_in">登录</string>
+    <string name="username">用户名</string>
+    <string name="title_dialog_another_sign_in">账户已退出登录</string>
+    <string name="content_dialog_another_sign_in">账户已在另外的设备进行登录，此设备已自动退出登录，若泄露密码，请联系工作人员进行密码修改</string>
+    <string name="title_dialog_need_sign_in">账户信息已过期</string>
+    <string name="content_dialog_need_sign_in">请重新登录</string>
+
+    <string name="confirm">确定</string>
+    <string name="re_sign_in">重新登录</string>
+</resources>

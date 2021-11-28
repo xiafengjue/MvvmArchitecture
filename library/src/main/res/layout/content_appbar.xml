@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="showBack"
+            type="boolean" />
+
+        <variable
+            name="titleText"
+            type="String" />
+    </data>
+
+    <com.google.android.material.appbar.AppBarLayout
+
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:textSize="24sp"
+            app:contentInsetStart="0dp"
+            app:navigationIcon="@{showBack?@drawable/ic_arrow_back_black_24dp:null}"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="@{titleText}"
+            app:titleTextAppearance="@style/ToolbarTextAppearance">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/title"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="@{titleText}"
+                android:textAllCaps="false"
+                android:visibility="gone"
+                tools:text="标题位置" />
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:src="@color/gray_e7e7e7" />
+    </com.google.android.material.appbar.AppBarLayout>
+</layout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AccountEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+
+    <style name="AccountEditText.Phone" parent="AccountEditText">
+        <item name="android:inputType">phone</item>
+        <item name="android:maxLength">11</item>
+        <item name="android:drawableStart">@drawable/ic_phone</item>
+        <item name="android:hint">@string/telephone</item>
+    </style>
+
+    <style name="AccountEditText.User" parent="AccountEditText">
+        <item name="android:drawableStart">@drawable/ic_username</item>
+        <item name="android:hint">@string/username</item>
+    </style>
+
+    <style name="AccountEditText.Password" parent="AccountEditText">
+        <item name="android:inputType">textPassword</item>
+        <item name="android:maxLength">20</item>
+        <item name="android:drawableStart">@drawable/ic_password</item>
+        <item name="android:hint">@string/password</item>
+    </style>
+
+    <style name="AccountEditText.Code" parent="AccountEditText">
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">6</item>
+        <item name="android:drawableStart">@drawable/ic_verify_code</item>
+        <item name="android:hint">@string/verify_code</item>
+    </style>
+    <!--圆角为5dp的按钮-->
+    <style name="DefaultButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/slc_main_btn</item>
+        <item name="android:enabled">false</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <!--圆角的按钮-->
+    <style name="DefaultRectButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/slc_rect_main_btn</item>
+        <item name="android:enabled">false</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <!--AppBarLayout布局默认theme，用在android:theme的情况下，设置了默认字体颜色和背景色，删掉Toolbar的自定义颜色可以保持一致，也可以自己使用toolbar自定义颜色-->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+    <!--Toolbar的menu默认字体颜色，因为采用的是白色的状态-->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+
+    <style name="ToolbarTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TransparentDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@color/dialogBg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>

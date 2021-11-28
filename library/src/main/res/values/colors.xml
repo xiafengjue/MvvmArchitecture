@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="color_line">#CCCCCC</color>
+    <color name="text_black">#333333</color>
+    <color name="widgetColorNormalDisable">#332A9F93</color>
+    <color name="widgetColorPressDisable">#331D6F66</color>
+    <color name="widgetColorNormal">#2A9F93</color>
+    <color name="widgetColorPress">#1D6F66</color>
+    <color name="text_gray">#a9a9a9</color>
+    <color name="gray_e7e7e7">#e7e7e7</color>
+    <color name="dialogBg">#77000000</color>
+    <color name="cropiwa_default_overlay_color">#af000000</color>
+    <color name="cropiwa_default_border_color">#f5f5f5</color>
+    <color name="cropiwa_default_corner_color">#f5f5f5</color>
+    <color name="cropiwa_default_grid_color">#fff</color>
+</resources>
